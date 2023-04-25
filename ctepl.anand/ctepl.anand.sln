@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctepl.anand.DTO", "ctepl.anand.DTO\ctepl.anand.DTO.csproj", "{8F40F269-A5F5-414A-B2D3-FD7DB23CB0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctepl.anand.DataAccess", "ctepl.anand.DataAccess\ctepl.anand.DataAccess.csproj", "{DC16B15C-A9E7-4819-AEE6-A5FB72ACB770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctepl.anand.Service", "ctepl.anand.Service\ctepl.anand.Service.csproj", "{1FCA632E-F32C-41CD-BAF7-785A3CA980C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctepl.anand.API", "ctepl.anand.API\ctepl.anand.API.csproj", "{5CFDC810-70D9-4957-B0A6-E43CA454E030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F40F269-A5F5-414A-B2D3-FD7DB23CB0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F40F269-A5F5-414A-B2D3-FD7DB23CB0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F40F269-A5F5-414A-B2D3-FD7DB23CB0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F40F269-A5F5-414A-B2D3-FD7DB23CB0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC16B15C-A9E7-4819-AEE6-A5FB72ACB770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC16B15C-A9E7-4819-AEE6-A5FB72ACB770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC16B15C-A9E7-4819-AEE6-A5FB72ACB770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC16B15C-A9E7-4819-AEE6-A5FB72ACB770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCA632E-F32C-41CD-BAF7-785A3CA980C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCA632E-F32C-41CD-BAF7-785A3CA980C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCA632E-F32C-41CD-BAF7-785A3CA980C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCA632E-F32C-41CD-BAF7-785A3CA980C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFDC810-70D9-4957-B0A6-E43CA454E030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFDC810-70D9-4957-B0A6-E43CA454E030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFDC810-70D9-4957-B0A6-E43CA454E030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFDC810-70D9-4957-B0A6-E43CA454E030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

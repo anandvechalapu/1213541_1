@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ctepl.anand.API.props" />
+</Project>
