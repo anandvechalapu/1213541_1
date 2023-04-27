@@ -1,0 +1,12 @@
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\bin\Debug\net7.0\FASLICfunctional.DTO.deps.json
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\bin\Debug\net7.0\FASLICfunctional.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\bin\Debug\net7.0\FASLICfunctional.DTO.pdb
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\FASLICfunctional.DTO.csproj.AssemblyReference.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\FASLICfunctional.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\FASLICfunctional.DTO.AssemblyInfoInputs.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\FASLICfunctional.DTO.AssemblyInfo.cs
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\FASLICfunctional.DTO.csproj.CoreCompileInputs.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\FASLICfunctional.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\refint\FASLICfunctional.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\FASLICfunctional.DTO.pdb
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\182\202304275614\FASLICfunctional\FASLICfunctional.DTO\obj\Debug\net7.0\ref\FASLICfunctional.DTO.dll
