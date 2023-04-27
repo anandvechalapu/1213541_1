@@ -1,77 +1,70 @@
-﻿using FASLICfunctional.DataAccess;
-using FASLICfunctional.DTO;
+﻿using FASLICFunctional.DataAccess;
+using FASLICFunctional.DTO;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 using System.Collections.Generic;
-using System.Linq;
+using System.Threading.Tasks;
 
-namespace FASLICfunctional.API
+namespace FASLICFunctional.API
 {
     [Route("api/[controller]")]
     [ApiController]
     public class SecurityExchangeProcessController : ControllerBase
     {
-        private readonly FASLICContext _context;
         private readonly SecurityExchangeProcessService _securityExchangeProcessService;
-        public SecurityExchangeProcessController(FASLICContext context, SecurityExchangeProcessService securityExchangeProcessService)
+
+        public SecurityExchangeProcessController(SecurityExchangeProcessService securityExchangeProcessService)
         {
-            _context = context;
             _securityExchangeProcessService = securityExchangeProcessService;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateSecurityExchangeProcessAsync([FromBody] SecurityExchangeProcessModel securityExchangeProcessModel)
+        [HttpGet("/all")]
+        public async Task<ActionResult<List<SecurityExchangeProcessModel>>> GetAllSecurityExchangeProcessAsync()
         {
-            var result = await _securityExchangeProcessService.CreateSecurityExchangeProcessAsync(securityExchangeProcessModel);
-            if (result > 0)
-            {
-                return Ok(result);
-            }
-            return BadRequest();
+            var securityExchangeProcesses = await _securityExchangeProcessService.GetAllSecurityExchangeProcessAsync();
+
+            return securityExchangeProcesses;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetSecurityExchangeProcessAsync(int id)
+        [HttpGet("/{id}")]
+        public async Task<ActionResult<SecurityExchangeProcessModel>> GetSecurityExchangeProcessByIdAsync(int id)
         {
-            var result = await _securityExchangeProcessService.GetSecurityExchangeProcessAsync(id);
-            if (result != null)
+            var securityExchangeProcess = await _securityExchangeProcessService.GetSecurityExchangeProcessByIdAsync(id);
+
+            if (securityExchangeProcess == null)
             {
-                return Ok(result);
+                return NotFound();
             }
-            return NotFound();
+
+            return securityExchangeProcess;
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<SecurityExchangeProcessModel>> InsertSecurityExchangeProcessAsync(SecurityExchangeProcessModel processModel)
+        {
+            var insertedSecurityExchangeProcess = await _securityExchangeProcessService.InsertSecurityExchangeProcessAsync(processModel);
+
+            return CreatedAtAction(nameof(GetSecurityExchangeProcessByIdAsync), new { id = insertedSecurityExchangeProcess.Id }, insertedSecurityExchangeProcess);
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateSecurityExchangeProcessAsync([FromBody] SecurityExchangeProcessModel securityExchangeProcessModel)
+        public async Task<ActionResult<SecurityExchangeProcessModel>> UpdateSecurityExchangeProcessAsync(SecurityExchangeProcessModel processModel)
         {
-            var result = await _securityExchangeProcessService.UpdateSecurityExchangeProcessAsync(securityExchangeProcessModel);
-            if (result > 0)
+            var updatedSecurityExchangeProcess = await _securityExchangeProcessService.UpdateSecurityExchangeProcessAsync(processModel);
+
+            if (updatedSecurityExchangeProcess == null)
             {
-                return Ok(result);
+                return NotFound();
             }
-            return BadRequest();
+
+            return updatedSecurityExchangeProcess;
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> DeleteSecurityExchangeProcessAsync(int id)
+        [HttpDelete("/{id}")]
+        public async Task<ActionResult> DeleteSecurityExchangeProcessAsync(int id)
         {
-            var result = await _securityExchangeProcessService.DeleteSecurityExchangeProcessAsync(id);
-            if (result > 0)
-            {
-                return Ok(result);
-            }
-            return NotFound();
-        }
+            await _securityExchangeProcessService.DeleteSecurityExchangeProcessAsync(id);
 
-        [HttpGet("all")]
-        public async Task<IActionResult> GetAllSecurityExchangeProcessesAsync()
-        {
-            var result = await _securityExchangeProcessService.GetAllSecurityExchangeProcessesAsync();
-            if (result != null)
-            {
-                return Ok(result);
-            }
-            return NotFound();
+            return NoContent();
         }
     }
 }

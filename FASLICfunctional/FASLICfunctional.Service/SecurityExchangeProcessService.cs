@@ -1,93 +1,42 @@
-﻿using FASLICfunctional.DataAccess;
-using FASLICfunctional.DTO;
-using System.Threading.Tasks;
+﻿using FASLICFunctional.DataAccess;
+using FASLICFunctional.DTO;
 using System.Collections.Generic;
-using System.Linq;
+using System.Threading.Tasks;
 
-namespace FASLICfunctional.Service
+namespace FASLICFunctional.Service
 {
     public class SecurityExchangeProcessService : ISecurityExchangeProcessService
     {
-        private readonly FASLICContext _context;
-        public SecurityExchangeProcessService(FASLICContext context)
+        private readonly ISecurityExchangeProcessRepository _securityExchangeProcessRepository;
+
+        public SecurityExchangeProcessService(ISecurityExchangeProcessRepository securityExchangeProcessRepository)
         {
-            _context = context;
+            _securityExchangeProcessRepository = securityExchangeProcessRepository;
         }
 
-        // Create 
-        public async Task<int> CreateSecurityExchangeProcessAsync(SecurityExchangeProcessModel securityExchangeProcessModel)
+        public async Task<List<SecurityExchangeProcessModel>> GetAllSecurityExchangeProcessAsync()
         {
-            var securityExchangeProcess = new SecurityExchangeProcess
-            {
-                ExchageName = securityExchangeProcessModel.ExchageName,
-                ExchangeCode = securityExchangeProcessModel.ExchangeCode,
-                ExchangeType = securityExchangeProcessModel.ExchangeType,
-                ExchangeLocation = securityExchangeProcessModel.ExchangeLocation,
-                ExchangeCountry = securityExchangeProcessModel.ExchangeCountry,
-                ExchangeWebsite = securityExchangeProcessModel.ExchangeWebsite
-            };
-            await _context.SecurityExchangeProcesses.AddAsync(securityExchangeProcess);
-            await _context.SaveChangesAsync();
-            return securityExchangeProcess.Id;
+            return await _securityExchangeProcessRepository.GetAllSecurityExchangeProcessAsync();
         }
 
-        // Read
-        public async Task<SecurityExchangeProcessModel> GetSecurityExchangeProcessAsync(int id)
+        public async Task<SecurityExchangeProcessModel> GetSecurityExchangeProcessByIdAsync(int id)
         {
-            var securityExchangeProcess = await _context.SecurityExchangeProcesses.FindAsync(id);
-            return new SecurityExchangeProcessModel
-            {
-                Id = securityExchangeProcess.Id,
-                ExchageName = securityExchangeProcess.ExchageName,
-                ExchangeCode = securityExchangeProcess.ExchangeCode,
-                ExchangeType = securityExchangeProcess.ExchangeType,
-                ExchangeLocation = securityExchangeProcess.ExchangeLocation,
-                ExchangeCountry = securityExchangeProcess.ExchangeCountry,
-                ExchangeWebsite = securityExchangeProcess.ExchangeWebsite
-            };
+            return await _securityExchangeProcessRepository.GetSecurityExchangeProcessByIdAsync(id);
         }
 
-        // Update
-        public async Task<int> UpdateSecurityExchangeProcessAsync(SecurityExchangeProcessModel securityExchangeProcessModel)
+        public async Task<SecurityExchangeProcessModel> InsertSecurityExchangeProcessAsync(SecurityExchangeProcessModel processModel)
         {
-            var securityExchangeProcess = new SecurityExchangeProcess
-            {
-                Id = securityExchangeProcessModel.Id,
-                ExchageName = securityExchangeProcessModel.ExchageName,
-                ExchangeCode = securityExchangeProcessModel.ExchangeCode,
-                ExchangeType = securityExchangeProcessModel.ExchangeType,
-                ExchangeLocation = securityExchangeProcessModel.ExchangeLocation,
-                ExchangeCountry = securityExchangeProcessModel.ExchangeCountry,
-                ExchangeWebsite = securityExchangeProcessModel.ExchangeWebsite
-            };
-            _context.SecurityExchangeProcesses.Update(securityExchangeProcess);
-            await _context.SaveChangesAsync();
-            return securityExchangeProcess.Id;
+            return await _securityExchangeProcessRepository.InsertSecurityExchangeProcessAsync(processModel);
         }
 
-        // Delete
-        public async Task<int> DeleteSecurityExchangeProcessAsync(int id)
+        public async Task<SecurityExchangeProcessModel> UpdateSecurityExchangeProcessAsync(SecurityExchangeProcessModel processModel)
         {
-            var securityExchangeProcess = await _context.SecurityExchangeProcesses.FindAsync(id);
-            _context.SecurityExchangeProcesses.Remove(securityExchangeProcess);
-            await _context.SaveChangesAsync();
-            return securityExchangeProcess.Id;
+            return await _securityExchangeProcessRepository.UpdateSecurityExchangeProcessAsync(processModel);
         }
 
-        // GetAll
-        public async Task<IEnumerable<SecurityExchangeProcessModel>> GetAllSecurityExchangeProcessesAsync()
+        public async Task DeleteSecurityExchangeProcessAsync(int id)
         {
-            var securityExchangeProcesses = await _context.SecurityExchangeProcesses.ToListAsync();
-            return securityExchangeProcesses.Select(x => new SecurityExchangeProcessModel
-            {
-                Id = x.Id,
-                ExchageName = x.ExchageName,
-                ExchangeCode = x.ExchangeCode,
-                ExchangeType = x.ExchangeType,
-                ExchangeLocation = x.ExchangeLocation,
-                ExchangeCountry = x.ExchangeCountry,
-                ExchangeWebsite = x.ExchangeWebsite
-            });
+            await _securityExchangeProcessRepository.DeleteSecurityExchangeProcessAsync(id);
         }
     }
 }

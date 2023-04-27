@@ -1,15 +1,14 @@
-﻿using FASLICfunctional.DTO;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+﻿using FASLICFunctional.DataAccess;
+using FASLICFunctional.DTO;
 
-namespace FASLICfunctional.Service
+namespace FASLICFunctional.Service
 {
     public interface ISecurityExchangeProcessService
     {
-        Task<int> CreateSecurityExchangeProcessAsync(SecurityExchangeProcessModel securityExchangeProcessModel);
-        Task<SecurityExchangeProcessModel> GetSecurityExchangeProcessAsync(int id);
-        Task<int> UpdateSecurityExchangeProcessAsync(SecurityExchangeProcessModel securityExchangeProcessModel);
-        Task<int> DeleteSecurityExchangeProcessAsync(int id);
-        Task<IEnumerable<SecurityExchangeProcessModel>> GetAllSecurityExchangeProcessesAsync();
+        Task<List<SecurityExchangeProcessModel>> GetAllSecurityExchangeProcessAsync();
+        Task<SecurityExchangeProcessModel> GetSecurityExchangeProcessByIdAsync(int id);
+        Task<SecurityExchangeProcessModel> InsertSecurityExchangeProcessAsync(SecurityExchangeProcessModel processModel);
+        Task<SecurityExchangeProcessModel> UpdateSecurityExchangeProcessAsync(SecurityExchangeProcessModel processModel);
+        Task DeleteSecurityExchangeProcessAsync(int id);
     }
 }

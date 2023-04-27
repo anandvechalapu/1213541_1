@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.API\\FASLICfunctional.API.csproj": {}
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.API\\FASLICfunctional.API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.API\\FASLICfunctional.API.csproj": {
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.API\\FASLICfunctional.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.API\\FASLICfunctional.API.csproj",
+        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.API\\FASLICfunctional.API.csproj",
         "projectName": "FASLICfunctional.API",
-        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.API\\FASLICfunctional.API.csproj",
+        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.API\\FASLICfunctional.API.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.API\\obj\\",
+        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj"
               },
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj": {
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj",
+        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj",
         "projectName": "FASLICfunctional.DataAccess",
-        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj",
+        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DataAccess\\obj\\",
+        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,8 +107,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj": {
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj",
+        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj",
         "projectName": "FASLICfunctional.DTO",
-        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj",
+        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\obj\\",
+        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -203,14 +203,14 @@
         }
       }
     },
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj": {
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj",
+        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj",
         "projectName": "FASLICfunctional.Service",
-        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj",
+        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.Service\\FASLICfunctional.Service.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.Service\\obj\\",
+        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -227,11 +227,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DataAccess\\FASLICfunctional.DataAccess.csproj"
               },
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304275614\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\182\\202304271205\\FASLICfunctional\\FASLICfunctional.DTO\\FASLICfunctional.DTO.csproj"
               }
             }
           }

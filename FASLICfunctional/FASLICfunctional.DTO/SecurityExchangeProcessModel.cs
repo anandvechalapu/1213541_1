@@ -1,13 +1,12 @@
-﻿namespace FASLICfunctional 
+﻿namespace FASLICFunctional
 {
     public class SecurityExchangeProcessModel
     {
-        public int Id { get; set; }
-        public string ExchageName { get; set; }
-        public string ExchangeCode { get; set; }
+        public int Id { get; set; } 
         public string ExchangeType { get; set; }
-        public string ExchangeLocation { get; set; }
-        public string ExchangeCountry { get; set; }
-        public string ExchangeWebsite { get; set; }
+        public string ExchangeCounterparty { get; set; }
+        public string ExchangeDate { get; set; }
+        public string ExchangeCurrency { get; set; }
+        public decimal ExchangeAmount { get; set; }
     }
 }
