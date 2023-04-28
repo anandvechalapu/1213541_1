@@ -1,12 +1,11 @@
-﻿namespace FASLICFunctional
+﻿namespace FASLIC.Functional
 {
     public class SecurityExchangeProcessModel
     {
-        public int Id { get; set; } 
-        public string ExchangeType { get; set; }
-        public string ExchangeCounterparty { get; set; }
-        public string ExchangeDate { get; set; }
-        public string ExchangeCurrency { get; set; }
-        public decimal ExchangeAmount { get; set; }
+        public Guid Id { get; set; }
+        public string Source { get; set; }
+        public DateTime Date { get; set; }
+        public string Reference { get; set; }
+        public string Type { get; set; }
     }
 }
