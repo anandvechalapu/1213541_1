@@ -1,0 +1,106 @@
+c = surveyState;
+        survey.Page_Name__c = pageName;
+        survey.Start_Date__c = startDate;
+        survey.End_Date__c = endDate;
+        survey.Target_Users__c = targetUsers;
+        survey.Specialty__c = specialty;
+        survey.Preferences__c = preferences;
+        survey.Country__c = country;
+        survey.Region__c = region;
+        survey.City__c = city;
+        // Insert survey
+        insert survey;
+        // Create Survey Questions
+        List<SurveyQuestion__c> surveyQuestionsToInsert = new List<SurveyQuestion__c>();
+        for(SurveyQuestion question : surveyQuestions) {
+            surveyQuestionsToInsert.add(question.generateSurveyQuestion());
+        }
+        // Insert Survey Questions
+        insert surveyQuestionsToInsert;
+        // Create Survey User
+        List<SurveyUser__c> surveyUsersToInsert = new List<SurveyUser__c>();
+        for(User user : selectedUsers) {
+            surveyUsersToInsert.add(user.generateSurveyUser(survey.Id));
+        }
+        // Insert Survey Users
+        insert surveyUsersToInsert;
+    }
+}
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <fields>
+        <fullName>Domain__c</fullName>
+        <description>Domain of Survey</description>
+        <externalId>false</externalId>
+        <label>Domain</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>Title of Survey</description>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Description of Survey</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Delay_Time__c</fullName>
+        <description>Delay Time of Survey</description>
+        <externalId>false</externalId>
+        <label>Delay Time</label>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Status of Survey</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <description>State of Survey</description>
+        <externalId>false</externalId>
+        <label>State</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Page_Name__c</fullName>
+        <description>Page Name of Survey</description>
+        <externalId>false</externalId>
+        <label>Page Name</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <description>Start Date of Survey</description>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <description>End Date of Survey</description>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Target_Users__c</fullName>
+        <description>Target Users of Survey</description>
+        <externalId>false</externalId>
+        <label>Target Users</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Specialty__c</fullName>
+        <description>Specialty of Survey</description>
