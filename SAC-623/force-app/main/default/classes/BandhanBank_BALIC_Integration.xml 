@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>46.0</apiVersion>
+    <status>Active</status>
+    <description>Apex Class for the user story Testing user story 1 - Business process.</description>
+    
+    <requirements>
+        <requirement>The mobile application/TAB provided by BALIC should be accessible to the sales personnel of Bandhan Bank.</requirement>
+        <requirement>The mobile application/TAB should be user-friendly and showcase the policy features and benefits to the customer.</requirement>
+        <requirement>The sales personnel should have access to customer demographic data shared by Bandhan Bank through an API.</requirement>
+        <requirement>The sales personnel should be able to capture the customer's consent for insurance, declaration of good health, and authority to debit the premium from their savings account using OTP received on their mobile number.</requirement>
+        <requirement>The sales personnel should not have access to the KYC documents of the customer.</requirement>
+        <requirement>The sales personnel should be able to enter the customer's mobile number into the mobile application/TAB to initiate the insurance process.</requirement>
+        <requirement>The customer's personal/demographic details, family income details, and CRIF score should be shared with BALIC by Bandhan Bank through an API.</requirement>
+        <requirement>Based on the customer's CRIF score, HLV should be populated on the screen by BALIC.</requirement>
+        <requirement>The mobile application/TAB should have a cursor to select the tenure and sum assured ranges for the policy.</requirement>
+        <requirement>The sales personnel should be able to check if the customer is eligible for the insurance policy based on their annual income.</requirement>
+        <requirement>If the customer is eligible, Bandhan Bank should push the data to BALIC for issuance, and the premium should be debited using the direct debit API.</requirement>
+        <requirement>Upon receipt of the premium, the customer should be enrolled under the GSJS product, and COI should be shared by BALIC.</requirement>
+        <requirement>The sales personnel should be able to download the COI using the COI download API provided by BALIC.</requirement>
+        <requirement>The COI should also be shared by BALIC on the customer's mobile number through SMS and email.</requirement>
+        <requirement>Bandhan Bank should receive a reverse feed from BALIC through Tableau.</requirement>
+        <requirement>For spouse coverage, the sales personnel should be able to fetch the spouse's data, including verified DOB and CRIF, from the bank system. If the data is not available, the sales personnel should be able to get the data through Ekyc/Ckyc. If the credit score of the spouse is not provided, the minimum sum assured of Rs. 50k should be allotted. If the member is not eligible for the cover, the spouse should also not be given an insurance cover.</requirement>
+    </requirements>
+</ApexClass>
