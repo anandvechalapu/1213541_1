@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <description>This Apex class provides the necessary functionality to allow users to edit Student records such as student name, student ID, and student grade.</description>
+    <label>StudentController</label>
+    <status>Active</status>
+</ApexClass>
